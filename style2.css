@@ -1,0 +1,120 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #0f1eeb;
+        }
+
+        header {
+            background-color: #c93117;
+            color: white;
+            padding: 10px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        nav img {
+            width: 50px;
+            height: 50px;
+        }
+
+         .promo-banner {
+      max-width: 1200px;
+      margin: 0 auto 60px;
+      background: linear-gradient(135deg, rgba(2, 223, 235, 0.05), rgba(155, 81, 224, 0.05));
+      border: 1px dashed var(--neon-cyan);
+      border-radius: 12px;
+      padding: 24px;
+      text-align: center;
+    }
+
+    .promo-banner h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.4rem;
+      color: var(--acid-green);
+      margin-bottom: 12px;
+    }
+
+    .tiers {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+         .tier-box {
+      background: rgb(219, 216, 17);
+      border: 1px solid var(--border-card);
+      padding: 12px 24px;
+      border-radius: 8px;
+      min-width: 180px;
+    }
+
+
+        nav a {
+            color: rgb(10, 10, 10);
+            text-decoration: italic;
+            padding: 10px;
+        }
+
+        main {
+            padding: 50px;
+            border: #c93117;
+            border-width: 5px;
+            padding: 5px;
+        
+            
+        }
+
+        footer {
+            background-color: #4078f0;
+            color: rgb(8, 8, 8);
+            text-align: center;
+            padding: 10px 0;
+        }
+     @keyframes colorshift{
+
+     }   
+    .fa-envelope{
+        font-size: 70px;
+    }
+    .box{
+        width: 400px;
+        height: 90px;
+        border:1px solid ;
+        font-size: 40px;
+        text-align: center;
+        background-color: #c93117;
+        transform: translateX(500px); 
+        animation: mySlide;   
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+    }
+    @keyframes mySlide{
+        from{ margin-left: 100%;}
+        to{margin-left: 0%;}
+    }
+
+    a:any-link{
+        color: #777777f8;
+    }
+        a:visited{
+            color: black;
+        }
+        a:hover{
+            color: gold;
+        }
+        a:active{
+            color: rgb(223, 36, 23);
+        }
+        h1{
+            text-shadow: 5px 5px 5px;
+        }
+        .p{
+            text-shadow: 5px 5px 5px ;
+        }
