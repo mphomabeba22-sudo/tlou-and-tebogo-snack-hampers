@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mphomabeba22-sudo.github.io/fantastic-hampers/sitemap.xml
+Disallow: /admin/
+Disallow: /private/

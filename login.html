@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and sign up</title>
+    <meta name="description"content="Buy Tlou and Tebogo snack hampers . Order via whatssapp today!">
+    <meta name="keywords " content="snack hampers , Tlou and Tebogo, cheap hampers in south africa , snack hampers for dilivery world wide ,">
+    <meta name ="author" content="mphomabeba22-sudo -IIE Rosebank">
+    <meta name ="robots" contect="index, follow">
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="box">
+  <div class="logo">
+    <h1><span>TLOU &</span> TEBOGO<br>SNACK HAMPER</h1>
+    <p>Welcome back!</p>
+  </div>
+  <h2>Login & Signup</h2>
+  <div class="modal-box" style="background:#fff; width:90%; max-width:400px; border-radius:20px; padding:25px; position:relative;">
+    <span style="position:absolute; top:10px; right:15px; cursor:pointer;" onclick="closeAuth()">X</span>
+    
+    <div class="button-box" style="width:220px; margin:0 auto 20px auto; display:flex; background:#eee; border-radius:30px; position:relative;">
+      <div id="btn-slider" style="position:absolute; top:0; left:0; width:110px; height:100%; background:#ff9800; border-radius:30px; transition:0.5s;"></div>
+      <button type="button" style="padding:10px 0; width:50%; border:0; background:transparent; cursor:pointer; z-index:1;" onclick="showLogin()">Login</button>
+      <button type="button" style="padding:10px 0; width:50%; border:0; background:transparent; cursor:pointer; z-index:1;" onclick="showRegister()">Register</button>
+    </div>
+
+    <div style="position:relative; width:100%; height:300px; overflow:hidden;">
+      <form id="loginForm" style="position:absolute; width:100%; left:0px; transition:0.5s;" onsubmit="return handleLogin(event)">
+        <input type="text" id="loginUser" placeholder="Username" required style="width:100%; padding:12px; border-radius:30px; border:1px solid #ccc; margin-bottom:10px;">
+        <input type="password" id="loginPass" placeholder="Password" required style="width:100%; padding:12px; border-radius:30px; border:1px solid #ccc; margin-bottom:10px;">
+        <button type="submit" style="width:100%; padding:12px; background:#ff9800; border:none; border-radius:30px; font-weight:bold;">Login</button>
+        <div id="loginMsg" style="text-align:center; margin-top:10px;"></div>
+      </form>
+
+      <form id="registerForm" style="position:absolute; width:100%; left:400px; transition:0.5s;" onsubmit="return handleRegister(event)">
+        <input type="text" id="regUser" placeholder="Username" required style="width:100%; padding:12px; border-radius:30px; border:1px solid #ccc; margin-bottom:10px;">
+        <input type="email" id="regEmail" placeholder="Email" required style="width:100%; padding:12px; border-radius:30px; border:1px solid #ccc; margin-bottom:10px;">
+        <input type="password" id="regPass" placeholder="Password" required style="width:100%; padding:12px; border-radius:30px; border:1px solid #ccc; margin-bottom:10px;">
+        <input type="password" id="regConfirm" placeholder="Confirm Password" required style="width:100%; padding:12px; border-radius:30px; border:1px solid #ccc; margin-bottom:10px;">
+        <button type="submit" style="width:100%; padding:12px; background:#ff9800; border:none; border-radius:30px; font-weight:bold;">Register</button>
+        <div id="regMsg" style="text-align:center; margin-top:10px;"></div>
+        <div class="top-bar">
+  <span id="userInfo">Guest</span>
+  <button onclick="openAuth()">Login</button>
+  <button id="logoutBtn" style="display:none; background:red; color:white;" onclick="logout()">Logout</button>
+</div>
+      </form>
+    </div>
+  </div>
+</div><br><a href="index.html">← Back to Home</a></div>
+  <div class="call">Call: 068 109 5680 / 083 973 7799</div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
